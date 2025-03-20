@@ -46,61 +46,95 @@ const List = () => {
                     </div>
                 </div>
             </div>
-            <div className="max-w-[1100px] m-auto flex flex-wrap  justify-center items-center mt-[100px]">
+            c
+
+            {/* ============= Work Protfolio section ========== */}
+
+            <div className="max-w-[1100px] m-auto flex flex-wrap  justify-center items-center mt-[40px]">
                 <div className="w-[542px] text-center">
-                    <p className="font-inter font-bold text-gray-800 text-3xl">Our Service</p>
+                    <p className="font-inter font-bold text-gray-800 text-3xl">Our Work Protfolio</p>
                     <p className="font-inter text-gray-500 text-sm mt-4">
                         There are many variations of passages of Lorem Ipsum available,
                         but the majority have suffered alteration in some form.
                     </p>
                 </div>
             </div>
-            <div className="max-w-[1100px] m-auto flex flex-wrap mt-[30px]">
-            <div className="w-[340px] mr-2 text-center text-gray-800 bg-white shadow-lg rounded-lg p-8 mb-2 border hover:border-gray-300">
-                    <p className="font-inter font-bold text-left text-2xl">UI/UX Design</p>
-                    <p className="font-inter text-left text-gray-500 text-sm mt-4">
-                        There are many variations of passages of Lorem Ipsum available,
-                        but the majority have suffered alteration in some form.
-                    </p>
+
+            <div className="max-w-[1100px] m-auto  flex justify-between flex-wrap mt-[20px] ">
+                <div className="w-[23%] min-w-[150px] m-2 rounded-md overflow-hidden bg-white hover:shadow-lg transition ">
+                    <img className="w-full h-auto object-cover" src="./src/assets/images/image1.png" alt="" />
                 </div>
-                <div className="w-[340px] mr-2 text-center text-gray-800 bg-white shadow-lg rounded-lg p-8 mb-2 border hover:border-gray-300">
-                    <p className="font-inter font-bold text-left text-2xl">Web Development</p>
-                    <p className="font-inter text-left text-gray-500 text-sm mt-4">
-                        There are many variations of passages of Lorem Ipsum available,
-                        but the majority have suffered alteration in some form.
-                    </p>
+                <div className="w-[23%] min-w-[250px] m-2 rounded-md overflow-hidden bg-white hover:shadow-lg transition ">
+                    <img className="w-full h-auto object-cover" src="./src/assets/images/image1.png" alt="" />
                 </div>
-                <div className="w-[340px] mr-2 text-center text-gray-800 bg-white shadow-lg rounded-lg p-8 mb-2 border hover:border-gray-300">
-                    <p className="font-inter font-bold text-left text-2xl">Digital Marketing</p>
-                    <p className="font-inter text-left text-gray-500 text-sm mt-4">
-                        There are many variations of passages of Lorem Ipsum available,
-                        but the majority have suffered alteration in some form.
-                    </p>
+                <div className="w-[23%] min-w-[250px] m-2 rounded-md overflow-hidden bg-white hover:shadow-lg transition ">
+                    <img className="w-full h-auto object-cover" src="./src/assets/images/image1.png" alt="" />
                 </div>
-                <div className="w-[340px] mr-2 text-center text-gray-800 bg-white shadow-lg rounded-lg p-8 mb-2 border hover:border-gray-300">
-                    <p className="font-inter font-bold text-left text-2xl">Graphic Design</p>
-                    <p className="font-inter text-left text-gray-500 text-sm mt-4">
-                        There are many variations of passages of Lorem Ipsum available,
-                        but the majority have suffered alteration in some form.
-                    </p>
+                <div className="w-[23%] min-w-[250px] m-2 rounded-md overflow-hidden bg-white hover:shadow-lg transition ">
+                    <img className="w-full h-auto object-cover" src="./src/assets/images/image1.png" alt="" />
                 </div>
-                <div className="w-[340px] mr-2 text-center text-gray-800 bg-white shadow-lg rounded-lg p-8 mb-2 border hover:border-gray-300">
-                    <p className="font-inter font-bold text-left text-2xl">Web Design</p>
-                    <p className="font-inter text-left text-gray-500 text-sm mt-4">
-                        There are many variations of passages of Lorem Ipsum available,
-                        but the majority have suffered alteration in some form.
-                    </p>
+                <div className="w-[23%] min-w-[250px] m-2 rounded-md overflow-hidden bg-white hover:shadow-lg transition ">
+                    <img className="w-full h-auto object-cover" src="./src/assets/images/image1.png" alt="" />
                 </div>
-                <div className="w-[340px] mr-2 text-center text-gray-800 bg-white shadow-lg rounded-lg p-8 mb-2 border hover:border-gray-300">
-                    <p className="font-inter font-bold text-left text-2xl">Motion Design</p>
-                    <p className="font-inter text-left text-gray-500 text-sm mt-4">
+                <div className="w-[23%] min-w-[250px] m-2 rounded-md overflow-hidden bg-white hover:shadow-lg transition ">
+                    <img className="w-full h-auto object-cover" src="./src/assets/images/image1.png" alt="" />
+                </div>
+                <div className="w-[23%] min-w-[250px] m-2 rounded-md overflow-hidden bg-white hover:shadow-lg transition ">
+                    <img className="w-full h-auto object-cover" src="./src/assets/images/image1.png" alt="" />
+                </div>
+                <div className="w-[23%] min-w-[250px] m-2 rounded-md overflow-hidden bg-white hover:shadow-lg transition ">
+                    <img className="w-full h-auto object-cover" src="./src/assets/images/image1.png" alt="" />
+                </div>
+
+            </div>
+
+            {/* ================= Expart team ================ */}
+            <div className="max-w-[1100px] m-auto flex flex-wrap  justify-center items-center mt-[30px]">
+                <div className="w-[542px] text-center">
+                    <p className="font-inter font-bold text-gray-800 text-3xl">Our Expert Team Member</p>
+                    <p className="font-inter text-gray-500 text-sm mt-4">
                         There are many variations of passages of Lorem Ipsum available,
                         but the majority have suffered alteration in some form.
                     </p>
                 </div>
             </div>
+            <div className="max-w-[1100px] m-auto flex justify-between flex-wrap mt-[20px]">
+                <div className="w-[28%] min-w-[150px] h-[350px] relative rounded-md overflow-hidden bg-white hover:shadow-lg transition">
+                    <img className="w-full h-full object-cover" src="./src/assets/images/image1.png" alt="" />
+                    <img className="absolute bottom-0" src="./src/assets/images/1.png" alt="" />
+                    <p className="absolute bottom-5 left-1/2 transform -translate-x-1/2 font-inter text-white text-lg font-bold">
+                        Md Sydul Amin
+                    </p>
+                    <p className="absolute bottom-3 left-1/2 transform -translate-x-1/2 font-inter text-white text-sm leading-[10px]">
+                        UI/UX Designer
+                    </p>
+                </div>
+                <div className="w-[28%] min-w-[150px] h-[350px] relative rounded-md overflow-hidden bg-white hover:shadow-lg transition">
+                    <img className="w-full h-full object-cover" src="./src/assets/images/image1.png" alt="" />
+                    <img className="absolute bottom-0" src="./src/assets/images/1.png" alt="" />
+                    <p className="absolute bottom-5 left-1/2 transform -translate-x-1/2 font-inter text-white text-lg font-bold">
+                        Md Sydul Amin
+                    </p>
+                    <p className="absolute bottom-3 left-1/2 transform -translate-x-1/2 font-inter text-white text-sm leading-[10px]">
+                        UI/UX Designer
+                    </p>
+                </div>
+                <div className="w-[28%] min-w-[150px] h-[350px] relative rounded-md overflow-hidden bg-white hover:shadow-lg transition">
+                    <img className="w-full h-full object-cover" src="./src/assets/images/image1.png" alt="" />
+                    <img className="absolute bottom-0" src="./src/assets/images/1.png" alt="" />
+                    <p className="absolute bottom-5 left-1/2 transform -translate-x-1/2 font-inter text-white text-lg font-bold">
+                        Md Sydul Amin
+                    </p>
+                    <p className="absolute bottom-3 left-1/2 transform -translate-x-1/2 font-inter text-white text-sm leading-[10px]">
+                        UI/UX Designer
+                    </p>
+                </div>
+            </div>
+
+
 
         </div>
+
 
     )
 }
