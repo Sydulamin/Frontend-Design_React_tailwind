@@ -48,7 +48,8 @@ const List = () => {
             </div>
 
             {/* ============= Our Service section ========== */}
-            <div className="max-w-[1100px] m-auto flex flex-wrap  justify-center items-center mt-[30px]">
+
+            <div className="max-w-[1100px] m-auto flex flex-wrap  justify-center items-center mt-[50px]">
                 <div className="w-[542px] text-center">
                     <p className="font-inter font-bold text-gray-800 text-3xl">Our Services</p>
                     <p className="font-inter text-gray-500 text-sm mt-4">
@@ -57,65 +58,86 @@ const List = () => {
                 </div>
             </div>
 
-            <div className="max-w-[1100px] m-auto flex justify-between flex-wrap ">
-                <div className="w-[32%] min-w-[150px] h-[350px] relative rounded-md overflow-hidden bg-white mt-[20px] hover:shadow-lg transition">
-                    <img className="w-full h-full object-cover" src="./src/assets/images/image1.png" alt="" />
-                    <img className="absolute bottom-0" src="./src/assets/images/1.png" alt="" />
-                    <p className="absolute bottom-5 left-1/2 transform -translate-x-1/2 font-inter text-white text-lg font-bold">
+            <div className="max-w-[1100px] m-auto flex justify-center flex-wrap mt-[40px]">
+                
+                <div className="w-[25%] min-w-[330px] h-[385px] mt-[25px] ml-[25px] rounded-md overflow-hidden  bg-white drop-shadow-md shadow-black/30 transition">
+                    <div className="border w-[45px] ml-[48px] mt-[63px] rounded-md h-[45px] border-indigo-600 flex justify-center items-center">
+                    <img className="bg-white content-center justify-center  w-[25px] h-[20px] mask-radial-closest-side" src="./src/assets/icon/Vector.png" alt="" />
+                    </div>
+                    
+                    
+                    <p className=" font-inter ml-[48px] mt-[25px] text-black text-lg font-bold ">
                         Md Sydul Amin
                     </p>
-                    <p className="absolute bottom-3 left-1/2 transform -translate-x-1/2 font-inter text-white text-sm leading-[10px]">
-                        UI/UX Designer
+                    <p className=" font-inter ml-[48px] text-gray-500 text-sm w-[250px] mt-[25px] leading-[20px]">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
                     </p>
                 </div>
-                <div className="w-[32%] min-w-[150px] h-[350px] relative rounded-md overflow-hidden bg-white mt-[20px] hover:shadow-lg transition">
-                    <img className="w-full h-full object-cover" src="./src/assets/images/image1.png" alt="" />
-                    <img className="absolute bottom-0" src="./src/assets/images/1.png" alt="" />
-                    <p className="absolute bottom-5 left-1/2 transform -translate-x-1/2 font-inter text-white text-lg font-bold">
+                <div className="w-[25%] min-w-[330px] h-[385px] mt-[25px] ml-[25px] rounded-md overflow-hidden bg-white drop-shadow-md shadow-black/30 transition">
+                <div className="border bg-[#5956E8] w-[45px] ml-[48px] mt-[63px] rounded-md h-[45px] border-indigo-600 flex justify-center items-center">
+                    <img className="content-center justify-center  w-[25px] h-[20px] mask-radial-closest-side" src="./src/assets/icon/Group11.png" alt="" />
+                    </div>
+                    
+                    
+                    <p className=" font-inter ml-[48px] mt-[25px] text-black text-lg font-bold ">
                         Md Sydul Amin
                     </p>
-                    <p className="absolute bottom-3 left-1/2 transform -translate-x-1/2 font-inter text-white text-sm leading-[10px]">
-                        UI/UX Designer
+                    <p className=" font-inter ml-[48px] text-gray-500 text-sm w-[250px] mt-[25px] leading-[20px]">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
                     </p>
                 </div>
-                <div className="w-[32%] min-w-[150px] h-[350px] relative rounded-md overflow-hidden bg-white mt-[20px] hover:shadow-lg transition">
-                    <img className="w-full h-full object-cover" src="./src/assets/images/image1.png" alt="" />
-                    <img className="absolute bottom-0" src="./src/assets/images/1.png" alt="" />
-                    <p className="absolute bottom-5 left-1/2 transform -translate-x-1/2 font-inter text-white text-lg font-bold">
+                <div className="w-[25%] min-w-[330px] h-[385px] mt-[25px] ml-[25px] rounded-md overflow-hidden  bg-white drop-shadow-md shadow-black/30 transition">
+                    <div className="border w-[45px] ml-[48px] mt-[63px] rounded-md h-[45px] border-indigo-600 flex justify-center items-center">
+                    <img className="bg-white content-center justify-center  w-[25px] h-[20px] mask-radial-closest-side" src="./src/assets/icon/Group12.png" alt="" />
+                    </div>
+                    
+                    
+                    <p className=" font-inter ml-[48px] mt-[25px] text-black text-lg font-bold ">
                         Md Sydul Amin
                     </p>
-                    <p className="absolute bottom-3 left-1/2 transform -translate-x-1/2 font-inter text-white text-sm leading-[10px]">
-                        UI/UX Designer
+                    <p className=" font-inter ml-[48px] text-gray-500 text-sm w-[250px] mt-[25px] leading-[20px]">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
                     </p>
                 </div>
-                <div className="w-[32%] min-w-[150px] h-[350px] relative rounded-md overflow-hidden bg-white mt-[20px] hover:shadow-lg transition">
-                    <img className="w-full h-full object-cover" src="./src/assets/images/image1.png" alt="" />
-                    <img className="absolute bottom-0" src="./src/assets/images/1.png" alt="" />
-                    <p className="absolute bottom-5 left-1/2 transform -translate-x-1/2 font-inter text-white text-lg font-bold">
+                <div className="w-[25%] min-w-[330px] h-[385px] mt-[25px] ml-[25px] rounded-md overflow-hidden  bg-white drop-shadow-md shadow-black/30 transition">
+                    <div className="border w-[45px] ml-[48px] mt-[63px] rounded-md h-[45px] border-indigo-600 flex justify-center items-center">
+                    <img className="bg-white content-center justify-center  w-[25px] h-[20px] mask-radial-closest-side" src="./src/assets/icon/Group13.png" alt="" />
+                    </div>
+                    
+                    
+                    <p className=" font-inter ml-[48px] mt-[25px] text-black text-lg font-bold ">
                         Md Sydul Amin
                     </p>
-                    <p className="absolute bottom-3 left-1/2 transform -translate-x-1/2 font-inter text-white text-sm leading-[10px]">
-                        UI/UX Designer
+                    <p className=" font-inter ml-[48px] text-gray-500 text-sm w-[250px] mt-[25px] leading-[20px]">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
                     </p>
                 </div>
-                <div className="w-[32%] min-w-[150px] h-[350px] relative rounded-md overflow-hidden bg-white mt-[20px] hover:shadow-lg transition">
-                    <img className="w-full h-full object-cover" src="./src/assets/images/image1.png" alt="" />
-                    <img className="absolute bottom-0" src="./src/assets/images/1.png" alt="" />
-                    <p className="absolute bottom-5 left-1/2 transform -translate-x-1/2 font-inter text-white text-lg font-bold">
+
+
+                <div className="w-[25%] min-w-[330px] h-[385px] mt-[25px] ml-[25px] rounded-md overflow-hidden  bg-white drop-shadow-md shadow-black/30 transition">
+                    <div className="border w-[45px] ml-[48px] mt-[63px] rounded-md h-[45px] border-indigo-600 flex justify-center items-center">
+                    <img className="bg-white content-center justify-center  w-[25px] h-[20px] mask-radial-closest-side" src="./src/assets/icon/Group14.png" alt="" />
+                    </div>
+                    
+                    
+                    <p className=" font-inter ml-[48px] mt-[25px] text-black text-lg font-bold ">
                         Md Sydul Amin
                     </p>
-                    <p className="absolute bottom-3 left-1/2 transform -translate-x-1/2 font-inter text-white text-sm leading-[10px]">
-                        UI/UX Designer
+                    <p className=" font-inter ml-[48px] text-gray-500 text-sm w-[250px] mt-[25px] leading-[20px]">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
                     </p>
                 </div>
-                <div className="w-[32%] min-w-[150px] h-[350px] relative rounded-md overflow-hidden mt-[20px] bg-white hover:shadow-lg transition">
-                    <img className="w-full h-full object-cover" src="./src/assets/images/image1.png" alt="" />
-                    <img className="absolute bottom-0" src="./src/assets/images/1.png" alt="" />
-                    <p className="absolute bottom-5 left-1/2 transform -translate-x-1/2 font-inter text-white text-lg font-bold">
+                <div className="w-[25%] min-w-[330px] h-[385px] mt-[25px] ml-[25px] rounded-md overflow-hidden  bg-white drop-shadow-md shadow-black/30 transition">
+                    <div className="border w-[45px] ml-[48px] mt-[63px] rounded-md h-[45px] border-indigo-600 flex justify-center items-center">
+                    <img className="bg-white content-center justify-center  w-[25px] h-[20px] mask-radial-closest-side" src="./src/assets/icon/Group15.png" alt="" />
+                    </div>
+                    
+                    
+                    <p className=" font-inter ml-[48px] mt-[25px] text-black text-lg font-bold ">
                         Md Sydul Amin
                     </p>
-                    <p className="absolute bottom-3 left-1/2 transform -translate-x-1/2 font-inter text-white text-sm leading-[10px]">
-                        UI/UX Designer
+                    <p className=" font-inter ml-[48px] text-gray-500 text-sm w-[250px] mt-[25px] leading-[20px]">
+                    There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
                     </p>
                 </div>
             </div>
